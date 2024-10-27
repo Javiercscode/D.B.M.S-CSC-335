@@ -29,20 +29,19 @@ public class DBSM extends Database {
         }
     }
 
-    public boolean contains() {
-        super.containsRecord("")
-        return containsRecord;
+    public boolean contains(Record search) {
+        return super.containsRecord(search);
     }
     public static Contains(){
 
     }
-    public void update(){
-        super.updateRecord();
+    public void update(Record record, Record modify){
+        super.updateRecord(record, modify);
     }
-    public void insert(){
-        super.insertRecord();
+    public void insert(Record record){
+        super.insertRecord(record);
     }
-    public void delete(){
-        super.deleteRecord();
+    public void delete(Record record){
+        super.deleteRecord(record);
     }
 }
