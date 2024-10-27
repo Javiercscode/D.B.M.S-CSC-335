@@ -29,6 +29,10 @@ public class DBSM extends Database {
         }
     }
 
+    public void add(Record record) {
+        return super.addRecord(record);
+    }
+
     public boolean contains(Record search) {
         return super.containsRecord(search);
     }
