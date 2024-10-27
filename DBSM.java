@@ -37,12 +37,12 @@ public class DBSM extends Database {
 
     }
     public void update(){
-
+        super.updateRecord();
     }
     public void insert(){
-
+        super.insertRecord();
     }
     public void delete(){
-
+        super.deleteRecord();
     }
 }
