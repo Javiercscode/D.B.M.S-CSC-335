@@ -43,4 +43,7 @@ public class DBMS extends Database{
     public void Delete(){
         
     }
+    public void Select(){
+        
+    }
 }
