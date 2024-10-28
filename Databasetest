@@ -1,0 +1,26 @@
+public class Databasetest {
+    public static void main(String[] args) {
+        //DBMS test = new DBMS();
+        
+        //test.Connect();
+        
+        //System.out.println("Awating response");
+        
+        //test.Disconnect();
+        
+        try {
+            Field test2 = new Field("Javier","540");
+            test2.addRecord();
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
+
+        
+        //System.out.println(test2.toString());
+        
+        //test2.setValue("321");
+        //test2.setName("John");
+        //System.out.println(test2.toString());
+    }
+    
+}
