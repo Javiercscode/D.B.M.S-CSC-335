@@ -1,5 +1,7 @@
 public class Databasetest {
     public static void main(String[] args) {
+            
+
         //DBMS test = new DBMS();
         
         //test.Connect();
@@ -7,13 +9,18 @@ public class Databasetest {
         //System.out.println("Awating response");
         
         //test.Disconnect();
-        
+        //Adding new record
         try {
             Field test2 = new Field("Javier","540");
             test2.addRecord();
         } catch (Exception e) {
-            // TODO: handle exception
+            System.out.println("could not add");
+
         }
+        //print out current records
+        Database db = new Database();
+        db.DisplayRecord();
+    
 
         
         //System.out.println(test2.toString());
